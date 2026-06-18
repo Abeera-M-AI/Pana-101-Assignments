@@ -1,5 +1,8 @@
-🔗 Live Demo URL:
-https://abeera-m-ai.github.io/Pana-101-Assignments/Budget-Calculator-Assignment/Budget%20Calculator.html
+# 💰 Budget Calculator Assignment
+
+## 🔗 Live Demo
+
+[📊 Open Budget Calculator](https://abeera-m-ai.github.io/Pana-101-Assignments/Budget-Calculator-Assignment/Budget%20Calculator.html)
 
 ---
 
@@ -20,3 +23,6 @@ An interactive budget planning tool that lets you track income and expenses with
 - **Future Wealth Predictor** — Projects savings over 1 year, 5 years, or a custom period (1–30 years)
 - **Financial Health Tips** — Dynamic advice based on your savings rate
 - **Interactive Sliders** — Drag sliders or type exact values in number inputs; both sync in real time
+
+### Browser Compatibility
+Works in Chrome, Firefox, Safari, Edge — any modern browser with ES6 support.

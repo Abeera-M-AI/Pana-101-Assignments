@@ -1,5 +1,8 @@
-🔗 Live Demo URL:
-https://abeera-m-ai.github.io/Pana-101-Assignments/Snake-Game-Assignment/snake-game.html
+# 🐍 Snake Game Assignment
+
+## 🔗 Live Demo
+
+[▶ Play Snake Game](https://abeera-m-ai.github.io/Pana-101-Assignments/Snake-Game-Assignment/snake-game.html)
 
 ---
 
@@ -21,10 +24,14 @@ A classic Snake game built entirely with vanilla HTML, CSS, and JavaScript — n
 - **Responsive Design** — Adapts to mobile screens
 
 ### Controls
+
 | Action | Keyboard | On-Screen |
 |--------|----------|-----------|
 | Move Up | ↑ or W | D-pad ↑ |
 | Move Down | ↓ or S | D-pad ↓ |
 | Move Left | ← or A | D-pad ← |
 | Move Right | → or D | D-pad → |
-| Pause/Resume | Space or Esc | Start/Pause button |
+| Pause / Resume | Space or Esc | Start / Pause button |
+
+### Browser Compatibility
+Works in Chrome, Firefox, Safari, Edge — any modern browser with ES6 support.
