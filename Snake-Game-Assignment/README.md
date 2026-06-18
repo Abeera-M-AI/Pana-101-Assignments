@@ -7,7 +7,13 @@ Source Code:
 snake-game.html
 
 How to Play:
-Click the link above. Use arrow keys or WASD to control the snake.
-Choose Easy, Medium, or Hard difficulty. Press Start to begin.
-Eat food to grow and score points. Avoid walls and yourself.
-High score is saved automatically in your browser.
+- Click the live demo link to open the game
+- Use arrow keys (up, down, left, right) or WASD to control the snake
+- Select a difficulty level before starting: Easy, Medium, or Hard
+- Press the Start button to begin the game
+- Eat the glowing food to grow longer and earn 10 points per food
+- Avoid hitting the walls or your own tail
+- The game ends when you crash, and your score is shown
+- High score is saved in your browser and displayed next to a trophy icon
+- Use the on-screen D-pad buttons if playing on a phone or tablet
+- Press Space or Escape to pause and resume the game
