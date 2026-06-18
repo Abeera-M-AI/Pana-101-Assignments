@@ -1,20 +1,20 @@
 # Pana 101 Assignments
 
-This repository contains completed assignments for the Pana 101 course.
+## Live Previews
 
-## Assignments
+| Assignment | Preview Link |
+|------------|-------------|
+| 🐍 **Snake Game** | [Play Snake Game](https://abeera-m-ai.github.io/Pana-101-Assignments/Snake-Game-Assignment/snake-game.html) |
+| 💰 **Budget Calculator** | [Open Budget Calculator](https://abeera-m-ai.github.io/Pana-101-Assignments/Budget-Calculator-Assignment/Budget%20Calculator.html) |
+| 📊 **LLM Lecture Slides** | [View Slides (PPTX)](https://abeera-m-ai.github.io/Pana-101-Assignments/LLM-Slides-Assignment/AI-Prompting-in-2026.pptx) |
 
-### 1. Snake Game
-- **File:** [Snake-Game-Assignment/snake-game.html](./Snake-Game-Assignment/snake-game.html)
-- A classic Snake game built with vanilla HTML, CSS, and JavaScript
-- Features: score tracking, difficulty levels, keyboard + touch controls
+## How to Use
 
-### 2. Budget Calculator
-- **File:** [Budget-Calculator-Assignment/Budget Calculator.html](./Budget-Calculator-Assignment/Budget%20Calculator.html)
-- An interactive budget planning tool
-- Track 5 expense categories with live-updating totals, savings rate, and wealth projections
+### 🐍 Snake Game
+Click the link above to play. Use **Arrow Keys** or **WASD** to move the snake. Choose difficulty (Easy/Medium/Hard). High scores are saved automatically.
 
-### 3. LLM Lecture Slides
-- **Files:** [LLM-Slides-Assignment/](./LLM-Slides-Assignment/)
-- Presentation on AI Prompting in 2026
-- Available in PPTX and PDF formats
+### 💰 Budget Calculator
+Adjust the **Income** slider and each **expense category** slider. Totals, savings rate, and future wealth projections update live.
+
+### 📊 LLM Slides
+Download the PPTX or view it directly in your browser if your device supports it.
