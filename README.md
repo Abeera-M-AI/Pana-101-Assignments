@@ -11,3 +11,8 @@ Class 4 Assignment:
 https://abeera-m-ai.github.io/Pana-101-Assignments/Class-4-Assignment/Budget%20Calculator.html
 Code: Class-4-Assignment/
 Contains: Budget Calculator
+
+Class 6 Assignment:
+https://abeera-m-ai.github.io/Pana-101-Assignments/Class-6-Assignment/index.html
+Code: Class-6-Assignment/
+Contains: Portfolio Website
