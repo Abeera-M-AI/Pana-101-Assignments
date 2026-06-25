@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 2 Submission: Safe Volume Automation</title>
+    <style>
+        body { font-family: 'Consolas', 'Segoe UI'; max-width: 950px; margin: 0 auto; padding: 30px; background: #fafafa; }
+        .card { background: #fff; padding: 45px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); border-top: 6px solid #e67e22; }
+        h1 { color: #2c3e50; font-size: 26px; text-transform: uppercase; } h2 { color: #e67e22; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-top: 35px; }
+        pre { background: #1e1e1e; color: #d4d4d4; padding: 24px; border-radius: 8px; font-size: 14px; line-height: 1.5; overflow-x: auto; }
+        ul { padding-left: 20px; font-size: 14px; } li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>Project 2: The Folder You've Avoided</h1>
+    <p><strong>Methodology:</strong> 4-Step Safety Ritual (Copy, Dry Run, Read, Approve)</p>
+    
+    <h2>1. Safety Workflow & Data Analysis Report</h2>
+    <p style="font-size: 14px;">High-volume unorganized folders carry severe data loss risks during automated script execution. This architecture implements a strict execution guard using the 4-Step Safety Ritual:</p>
+    <ul>
+        <li><strong>The Copy:</strong> Ensuring a localized or duplicate environment exists before running any code.</li>
+        <li><strong>The Dry Run:</strong> The script sets a strict <code>dry_run=True</code> flag that reads and matches the files but blocks any actual disk modifications.</li>
+        <li><strong>The Read:</strong> Displays a real-time console matrix mapping exactly what actions would happen under full authorization.</li>
+        <li><strong>Catch and Approve:</strong> Demands human confirmation by setting the flag to <code>False</code> before making real, permanent structural changes.</li>
+    </ul>
+
+    <h2>2. Desktop Automation Engine (Safe Production Script)</h2>
+<pre><code>
+import os
+import shutil
+
+def process_avoided_folder(target_dir, dry_run=True):
+    """
+    Applies the full safety ritual workflow to messy folder volumes.
+    """
+    print(f"=== SAFETY METRIC INITIATED (Dry Run Mode: {dry_run}) ===")
+    if not os.path.exists(target_dir):
+        print(f"Error: Target path '{target_dir}' does not exist.")
+        return False
+
+    all_assets = os.listdir(target_dir)
+    simulated_moves = 0
+    actual_moves = 0
+
+    for asset in all_assets:
+        asset_path = os.path.join(target_dir, asset)
+        if os.path.isdir(asset_path) or asset == "run_safety_workflow.py":
+            continue
+            
+        name, ext = os.path.splitext(asset)
+        clean_ext = ext.lower().strip(".")
+        if not clean_ext:
+            continue
+
+        target_folder_name = f"{clean_ext.upper()} Files"
+        destination_path = os.path.join(target_dir, target_folder_name)
+
+        if dry_run:
+            print(f"[SIMULATION] WOULD MOVE: {asset} -> {target_folder_name}/")
+            simulated_moves += 1
+        else:
+            if not os.path.exists(destination_path):
+                os.makedirs(destination_path)
+            shutil.move(asset_path, os.path.join(destination_path, asset))
+            print(f"[LIVE MUTATION] Executed asset transfer: {asset} -> {target_folder_name}/")
+            actual_moves += 1
+
+    print("\n=== WORKFLOW METRIC SUMMARY ===")
+    if dry_run:
+        print(f"[READ CONFIRMATION]: Dry run successfully simulated {simulated_moves} asset movements. Zero data was altered.")
+    else:
+        print(f"[COMPLETED]: Safely migrated {actual_moves} structural records based on human approval.")
+    return True
+
+if __name__ == '__main__':
+    # Local environment run
+    active_directory = os.path.dirname(os.path.abspath(__file__))
+    process_avoided_folder(active_directory, dry_run=True)
+</code></pre>
+</div>
+</body>
+</html>
